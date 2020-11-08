@@ -2,7 +2,7 @@
 
    **SDL-Skeleton is a FREE toolbox for object skeleton detection, which also has strong adaptability to general pixel-wise binary classification tasks, such as edge detection, saliency detection, line detetection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
-SDL-Skeleton includes popular skeleton detection methods, including HED[1][], SRN[2][], LSN[3][], HiFi[4][], DeepFlux[5][] and our newly proposed Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
+SDL-Skeleton includes popular skeleton detection methods, including HED[<sup>1</sup>](#hed), SRN[2][], LSN[3][], HiFi[4][], DeepFlux[5][] and our newly proposed Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
    
 <p align="center">
   <img src="results/result_skeleton.png" alt="skeleton" width="60%">
