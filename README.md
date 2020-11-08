@@ -2,31 +2,31 @@
 
    **This is a toolbox for object skeleton detection, which can also be used for other pixel-wise binary classification tasks, such as edge detection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
-This project includes most skeleton detection methods, such as HED, SRN, HiFi, DeepFlux and our new work Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved 0.786 performace on sklarge dataset.
+This project includes most popular skeleton detection methods, such as HED, SRN, HiFi, DeepFlux and our new work Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
    
 <p align="center">
-  <img src="results/result_skeleton.png" alt="skeleton" width="58%">
+  <img src="results/result_skeleton.png" alt="skeleton" width="60%">
 </p>
 <p align="center">
 Figure 1: Skeleton detection examples.
 </p>
 
 <p align="center">
-  <img src="results/result_edge.png" alt="edge" width="58%">
+  <img src="results/result_edge.png" alt="edge" width="60%">
 </p>
 <p align="center">
 Figure 1: Edge detection examples.
 </p>
 
 <p align="center">
-  <img src="results/result_building.png" alt="building" width="58%">
+  <img src="results/result_building.png" alt="building" width="60%">
 </p>
 <p align="center">
 Figure 1: Building extraction examples.
 </p>
 
 <p align="center">
-  <img src="results/result_road.png" alt="road" width="58%">
+  <img src="results/result_road.png" alt="road" width="60%">
 </p>
 <p align="center">
 Figure 1: Road extraction examples.
