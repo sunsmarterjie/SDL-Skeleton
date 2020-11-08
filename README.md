@@ -50,3 +50,8 @@ Figure 1: Road extraction examples.
  
  We also test our methods on [edge detection](https://www.researchgate.net/publication/45821321_Contour_Detection_and_Hierarchical_Image_Segmentation), [building extraction](https://project.inria.fr/aerialimagelabeling/download/) and [road extraction](http://deepglobe.org/). 
 ## Usages
+
+```
+python train.py --network 'hed'            # HED
+python train.py --network 'srn'            # SRN
+```
