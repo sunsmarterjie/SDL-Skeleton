@@ -54,6 +54,7 @@ Test HED and SRN by
 ```
 python train.py --network 'hed'            # HED
 python train.py --network 'srn'            # SRN
+python train.py --network 'deep_flux'      # DeepFlux
 ```
-At the same time, modify the saved path of the network model in engines/trainer.py
+At the same time, modify the saved path of the network model in engines/trainer.py. If you want to test DeepFlux, you also need to modify the data loader to use datasets/sklarge_flux.py. As for HiFi, we only implemented the network structure, with lacking the multi-scale annotation datasets.
 We only 
