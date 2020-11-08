@@ -83,7 +83,7 @@ python train_AdaLSN.py
 
 <div id="hed"></div>
 
-- [1] (http://xueshu.baidu.com/)
+- [1] S. Xie and Z. Tu, “Holistically-nested edge detection,” in IEEE ICCV, 2015, pp. 1395–1403. 1, 2, 3, 4, 10
 
 <div id="srn"></div>
 
