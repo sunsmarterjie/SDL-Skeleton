@@ -64,6 +64,9 @@ Test Ada-LSN by run:
 ```
 python train_AdaLSN.py
 ```
-Our Ada-LSN supports different backbones, including VGG, ResNet, Res2Net and Inception. Simply modify the Ada_LSN/model.py to switch between different backbones.
+Our Ada-LSN supports different backbones, including VGG, ResNet, Res2Net and Inception. Simply modify the Ada_LSN/model.py to switch between different backbones. The performance of these different backbones on the sklarge dataset is as follows：
+|        |  VGG  | 
+|  ----  | ----  |
+| F-score| 0.763 |
  **Other tasks**
  
