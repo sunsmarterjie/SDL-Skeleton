@@ -50,11 +50,20 @@ Figure 1: Road extraction examples.
  
  We also test our methods on [edge detection](https://www.researchgate.net/publication/45821321_Contour_Detection_and_Hierarchical_Image_Segmentation), [building extraction](https://project.inria.fr/aerialimagelabeling/download/) and [road extraction](http://deepglobe.org/). 
 ## Usages
-Test HED and SRN by
+**Skeleton Detection**
+
+Test HED and SRN by run:
 ```
 python train.py --network 'hed'            # HED
 python train.py --network 'srn'            # SRN
 python train.py --network 'deep_flux'      # DeepFlux
 ```
 At the same time, modify the saved path of the network model in engines/trainer.py. If you want to test DeepFlux, you also need to modify the data loader to use datasets/sklarge_flux.py. As for HiFi, we only implemented the network structure, with lacking the multi-scale annotation datasets.
-We only 
+
+Test Ada-LSN by run:
+```
+python train_AdaLSN.py
+```
+
+ **Other tasks**
+ 
