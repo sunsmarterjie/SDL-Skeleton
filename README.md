@@ -5,28 +5,28 @@
 This project includes most skeleton detection methods, such as HED, SRN, HiFi, DeepFlux and our new work Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved 0.786 performace on sklarge dataset.
    
 <p align="center">
-  <img src="results/result_skeleton.png" alt="skeleton" width="68%">
+  <img src="results/result_skeleton.png" alt="skeleton" width="58%">
 </p>
 <p align="center">
 Figure 1: Skeleton detection examples.
 </p>
 
 <p align="center">
-  <img src="results/result_edge.png" alt="edge" width="68%">
+  <img src="results/result_edge.png" alt="edge" width="58%">
 </p>
 <p align="center">
 Figure 1: Edge detection examples.
 </p>
 
 <p align="center">
-  <img src="results/result_building.png" alt="building" width="68%">
+  <img src="results/result_building.png" alt="building" width="58%">
 </p>
 <p align="center">
 Figure 1: Building extraction examples.
 </p>
 
 <p align="center">
-  <img src="results/result_road.png" alt="road" width="68%">
+  <img src="results/result_road.png" alt="road" width="58%">
 </p>
 <p align="center">
 Figure 1: Road extraction examples.
