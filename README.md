@@ -79,7 +79,7 @@ python train_AdaLSN.py
 ```
 
 
-## 参考
+## Reference
 
 <div id="hed"></div>
 
