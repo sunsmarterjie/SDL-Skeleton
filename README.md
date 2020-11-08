@@ -65,11 +65,12 @@ Test Ada-LSN by run:
 python train_AdaLSN.py
 ```
 Our Ada-LSN supports different backbones, including VGG, ResNet, Res2Net and Inception. Simply modify the Ada_LSN/model.py to switch between different backbones. The performance of these different backbones on the sklarge dataset is as follows：
-|        |  VGG  | ResNet50 | Res2Net | InceptionV3 |
-|  ----  | ----  | -------- | ------- | ----------- |
-| F-score| 0.763 |  0.764   |  0.768  |  0.786      |
+|backbones |  VGG  | ResNet50 | Res2Net | InceptionV3 |
+|  ----    | ----  | -------- | ------- | ----------- |
+| F-score  | 0.763 |  0.764   |  0.768  |  0.786      |
 
  **Other tasks**
+ 
  Our Ada-LSN also can be used for other pixel-wise binary classification tasks. We archieved state-of-the-art performace in edge detection and road extraction. We think Ada-LSN is also suitable for other tasks, for example, in subsequent experiments, we found Ada-LSN also works well on building extraction. You can use our method to simply modify the data path by run:
 ```
 python train_AdaLSN.py
