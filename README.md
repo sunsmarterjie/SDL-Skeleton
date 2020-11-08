@@ -83,7 +83,7 @@ python train_AdaLSN.py
 
 <div id="hed"></div>
 
-- [1] [百度学术](http://xueshu.baidu.com/)
+- [1] (http://xueshu.baidu.com/)
 
 <div id="srn"></div>
 
