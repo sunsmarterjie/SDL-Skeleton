@@ -96,9 +96,10 @@ python train_AdaLSN.py
 
 - [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019.
 
-- [5] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
-
-- [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
-
 <div id="adalsn"></div>
-- [7] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
+- [5] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
+
+- [6] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
+
+- [7] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
+
