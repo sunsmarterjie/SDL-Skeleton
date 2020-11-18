@@ -2,7 +2,7 @@
 
    **SDL-Skeleton is a FREE toolbox for object skeleton detection, which also has strong adaptability to general pixel-wise binary classification tasks, such as edge detection, saliency detection, line detetection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
-SDL-Skeleton includes popular skeleton detection methods, including HED[<sup>1</sup>](#hed), SRN[<sup>2</sup>](#srn), LSN[<sup>3</sup>](#lsn), HiFi[<sup>4</sup>](#hifi), DeepFlux[<sup>5</sup>](#deepflux) and our newly proposed Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
+SDL-Skeleton includes popular skeleton detection methods, including HED[<sup>1</sup>](#hed), SRN[<sup>2</sup>](#srn), HiFi[<sup>3</sup>](#hifi), DeepFlux[<sup>4</sup>](#deepflux) and our newly proposed Ada-LSN. Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
    
 <p align="center">
   <img src="results/result_skeleton.png" alt="skeleton" width="60%">
@@ -89,14 +89,9 @@ python train_AdaLSN.py
 
 - [2] W. Ke, J. Chen, J. Jiao, G. Zhao, and Q. Ye, “SRN: side-output residual network for object symmetry detection in the wild,” in IEEE CVPR,2017
 
-<div id="lsn"></div>
 
-- [3] C. Liu, W. Ke, F. Qin, and Q. Ye, “Linear span network for object skeleton detection,” in ECCV, 2018
-
-<div id="hifi"></div>
-
-- [4] K. Zhao, W. Shen, S. Gao, D. Li, and M. Cheng, “Hi-fi: Hierarchical feature integration for skeleton detection,” in IJCAI, 2018
+- [3] K. Zhao, W. Shen, S. Gao, D. Li, and M. Cheng, “Hi-fi: Hierarchical feature integration for skeleton detection,” in IJCAI, 2018
 
 <div id="deepflux"></div>
 
-- [5] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019
+- [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019
