@@ -87,15 +87,17 @@ python train_AdaLSN.py
 
 <div id="srn"></div>
 
-- [2] W. Ke, J. Chen, J. Jiao, G. Zhao, and Q. Ye, “SRN: side-output residual network for object symmetry detection in the wild,” in IEEE CVPR,2017
+- [2] W. Ke, J. Chen, J. Jiao, G. Zhao, and Q. Ye, “SRN: side-output residual network for object symmetry detection in the wild,” in IEEE CVPR,2017.
 
 
-- [3] K. Zhao, W. Shen, S. Gao, D. Li, and M. Cheng, “Hi-fi: Hierarchical feature integration for skeleton detection,” in IJCAI, 2018
+- [3] K. Zhao, W. Shen, S. Gao, D. Li, and M. Cheng, “Hi-fi: Hierarchical feature integration for skeleton detection,” in IJCAI, 2018.
 
 <div id="deepflux"></div>
 
-- [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019
+- [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019.
 
 - [5] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
 
-- [6] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972
+- [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
+
+- [6] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
