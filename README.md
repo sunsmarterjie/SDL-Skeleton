@@ -2,7 +2,7 @@
 
    **SDL-Skeleton is a FREE toolbox for object skeleton detection, which also has strong adaptability to general pixel-wise binary classification tasks, such as edge detection, saliency detection, line detetection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
-SDL-Skeleton includes popular skeleton detection methods, including HED[<sup>1</sup>](#hed), SRN[<sup>2</sup>](#srn), HiFi[<sup>3</sup>](#hifi), DeepFlux[<sup>4</sup>](#deepflux) and our newly proposed [Ada-LSN](https://arxiv.org/pdf/2011.03972.pdf). Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
+SDL-Skeleton includes popular skeleton detection methods, including HED[<sup>1</sup>](#hed), SRN[<sup>2</sup>](#srn), HiFi[<sup>3</sup>](#hifi), DeepFlux[<sup>4</sup>](#deepflux) and our newly proposed [Ada-LSN](https://arxiv.org/pdf/2011.03972.pdf)[<sup>4</sup>](#adalsn). Ada-LSN achieved the state-of-the-art results across all skeleton dataset, for example, we achieved **0.786** performace on sklarge dataset.
    
 <p align="center">
   <img src="results/result_skeleton.png" alt="skeleton" width="60%">
@@ -100,4 +100,5 @@ python train_AdaLSN.py
 
 - [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
 
+<div id="adalsn"></div>
 - [7] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
