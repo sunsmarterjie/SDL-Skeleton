@@ -100,4 +100,4 @@ python train_AdaLSN.py
 
 - [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
 
-- [6] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
+- [7] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
