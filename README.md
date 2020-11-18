@@ -77,6 +77,7 @@ Our Ada-LSN supports different backbones, including VGG, ResNet, Res2Net and Inc
 ```
 python train_AdaLSN.py
 ```
+Please refer to ODN[<sup>6</sup>](#odn) for saliency detection and earthquake detection 
 
 
 ## Reference
@@ -100,7 +101,8 @@ python train_AdaLSN.py
 
 - [5] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
 
-- [6] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
+<div id="adalsn"></div>
 
-- [7] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
+- [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
 
+- [7] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
