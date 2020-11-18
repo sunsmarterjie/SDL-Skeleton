@@ -95,3 +95,5 @@ python train_AdaLSN.py
 <div id="deepflux"></div>
 
 - [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019
+
+- [5] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972
