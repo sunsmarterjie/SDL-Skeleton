@@ -161,7 +161,7 @@ class Network(nn.Module):
             if self.genotype[2][2][1] == 1:
                 d2_2 = F.relu(self.cat6(torch.cat([c3, self.crop(d2_2, (0, 0) + c3.size()[2:4])], dim=1)),
                               inplace=True)
-            c4 = cell3(d2_2)
+            c4 = cell4(d2_2)
         else:
             c4 = torch.zeros_like(self.up2(dsn2))
 
