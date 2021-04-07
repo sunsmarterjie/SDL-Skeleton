@@ -99,7 +99,7 @@ Please refer to ODN[<sup>6</sup>](#odn) for saliency detection and earthquake de
 
 <div id="adalsn"></div>
 
-- [5] Chang Liu, Yunjie Tian, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
+- [5] Chang Liu*, Yunjie Tian*, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
 
 <div id="adalsn"></div>
 
