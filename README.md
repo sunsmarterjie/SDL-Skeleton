@@ -1,6 +1,6 @@
 ## SDL-Skeleton
 
-**Our paper has been accepted by [TIP(2021)](https://ieeexplore.ieee.org/document/9432856), the NAS part of code and the pretrained model will come soon !**
+**Our paper has been accepted by [TIP(2021)](https://ieeexplore.ieee.org/document/9432856)**
 
    **SDL-Skeleton is a FREE toolbox for object skeleton detection, which also has strong adaptability to general pixel-wise binary classification tasks, such as edge detection, saliency detection, line detetection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
