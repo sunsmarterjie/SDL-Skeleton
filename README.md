@@ -2,7 +2,7 @@
 
 **Our paper has been accepted by [TIP(2021)](https://ieeexplore.ieee.org/document/9432856)**
 
-Attention：evaluation code is newly updated [here](https://pan.baidu.com/s/1ZZwZLdYZjAOSXDlNfT7Zeg), password is x9bd. In addition, many guys want the pretrained model, which is missed during the machine clearing. I will re-run AdaLSN and share the pretrained model.
+Attention：evaluation code is newly updated [here](https://pan.baidu.com/s/1ZZwZLdYZjAOSXDlNfT7Zeg), password is x9bd. In addition, many guys want the pretrained model, which is missed during the machine clearing. I will re-run AdaLSN and share the pretrained model. I re-run the AdaLSN, and the pre-trained is released [here](https://pan.baidu.com/s/1ttZYHpmnbeRAcQd7wGAe6g), password: abcd.
 
    **SDL-Skeleton is a FREE toolbox for object skeleton detection, which also has strong adaptability to general pixel-wise binary classification tasks, such as edge detection, saliency detection, line detetection, building extraction and road extraction. This code is based on the implementation of  [HED](https://github.com/s9xie/hed) and [SRN](https://github.com/KevinKecc/SRN).**
    
