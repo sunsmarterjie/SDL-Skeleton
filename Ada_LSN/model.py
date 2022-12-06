@@ -204,36 +204,39 @@ class Network(nn.Module):
 
         s = self.classifier2(self.classifier1(d_fuse))
         out_fuse = self.crop(s, (34, 34) + size)
-        if self.genotype[2][5][0] == 1:
-            out1 = self.crop(self.super1(self.up8(c1)), (34, 34) + size)
-        if self.genotype[2][5][1] == 1:
-            out2 = self.crop(self.super2(self.up4(c2)), (34, 34) + size)
-        if self.genotype[2][5][2] == 1:
-            out3 = self.crop(self.super3(self.up2(c3)), (34, 34) + size)
-        if self.genotype[2][5][3] == 1:
-            out4 = self.crop(self.super4(c4), (34, 34) + size)
-        if self.genotype[2][5][4] == 1:
-            out5 = self.crop(self.super5(c5), (34, 34) + size)
-
-        loss_fuse = b1(out_fuse, input1)
-        loss = 0.0
-        if self.genotype[2][5][0] == 1 and self.genotype[0][0]:
-            loss += b1(out1, input1)
-        if self.genotype[2][5][1] == 1 and self.genotype[0][1]:
-            loss += b1(out2, input1)
-        if self.genotype[2][5][2] == 1 and self.genotype[0][2]:
-            loss += b1(out3, input1)
-        if self.genotype[2][5][3] == 1 and self.genotype[0][3]:
-            loss += b1(out4, input1)
-        if self.genotype[2][5][4] == 1 and self.genotype[0][4]:
-            loss += b1(out5, input1)
-        return loss + loss_fuse, loss_fuse  # for train
-        # if input1 is not None:
-        #     loss_fuse = b1(out_fuse, input1)
-        # else:
-        #     loss_fuse = None
-        # out = torch.sigmoid(out_fuse)
-        # return out, loss_fuse   # for test
+        
+        if input1 is not None:
+            if self.genotype[2][5][0] == 1:
+                out1 = self.crop(self.super1(self.up8(c1)), (34, 34) + size)
+            if self.genotype[2][5][1] == 1:
+                out2 = self.crop(self.super2(self.up4(c2)), (34, 34) + size)
+            if self.genotype[2][5][2] == 1:
+                out3 = self.crop(self.super3(self.up2(c3)), (34, 34) + size)
+            if self.genotype[2][5][3] == 1:
+                out4 = self.crop(self.super4(c4), (34, 34) + size)
+            if self.genotype[2][5][4] == 1:
+                out5 = self.crop(self.super5(c5), (34, 34) + size)
+        
+            loss_fuse = b1(out_fuse, input1)
+            loss = 0.0
+            if self.genotype[2][5][0] == 1 and self.genotype[0][0]:
+                loss += b1(out1, input1)
+            if self.genotype[2][5][1] == 1 and self.genotype[0][1]:
+                loss += b1(out2, input1)
+            if self.genotype[2][5][2] == 1 and self.genotype[0][2]:
+                loss += b1(out3, input1)
+            if self.genotype[2][5][3] == 1 and self.genotype[0][3]:
+                loss += b1(out4, input1)
+            if self.genotype[2][5][4] == 1 and self.genotype[0][4]:
+                loss += b1(out5, input1)
+            return loss + loss_fuse, loss_fuse  # for train
+        else:
+            if input1 is not None:
+                loss_fuse = b1(out_fuse, input1)
+            else:
+                loss_fuse = None
+            out = torch.sigmoid(out_fuse)
+            return out, loss_fuse   # for test
 
     def crop(self, d, region):  # use for crop the keep to input data
         x, y, h, w = region
