@@ -109,7 +109,7 @@ class Network(nn.Module):
         self.up4 = lambda x: F.interpolate(x, scale_factor=4, mode='bilinear', align_corners=False)
         self.up8 = lambda x: F.interpolate(x, scale_factor=8, mode='bilinear', align_corners=False)
 
-    def forward(self, input0, input1):
+    def forward(self, input0, input1=None):
         size = input0.size()[2:4]
         conv1, conv2, conv3, conv4, conv5 = self.network(input0)
         dsn1 = self.dsn1(conv1)
