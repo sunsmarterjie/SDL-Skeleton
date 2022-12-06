@@ -17,7 +17,7 @@ import scipy.io as scio
 gpu_id = 0
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 torch.cuda.set_device(gpu_id)
-net = Network(128, 4, [0, 1, 2, 3], geno).cuda(0).eval()
+net = Network(128, 5, [0, 1, 2, 3], geno).cuda(0).eval()
 net.load_state_dict(torch.load('./Ada_LSN/weights/inception_sklarge/skel_74000.pth', map_location=lambda storage, loc: storage))
 
 root = './OriginalSKLARGE/images/test'
