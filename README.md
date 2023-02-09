@@ -58,6 +58,8 @@ Figure 4: Road extraction examples.
 ## Usages
 **Skeleton Detection**
 
+You should first prepare your dataset -- download sklarge (or others) dataset and then augment them using the accompanying script. Next, if you want better performance, run dataRN.py. 
+
 Test HED and SRN by run:
 ```
 python train.py --network 'hed'            # HED
@@ -84,29 +86,17 @@ python train_AdaLSN.py
 Please refer to ODN[<sup>6</sup>](#odn) for saliency detection and earthquake detection 
 
 
-## Reference
 
-<div id="hed"></div>
+## Citation
 
-- [1] S. Xie and Z. Tu, “Holistically-nested edge detection,” in IEEE ICCV, 2015
-
-<div id="srn"></div>
-
-- [2] W. Ke, J. Chen, J. Jiao, G. Zhao, and Q. Ye, “SRN: side-output residual network for object symmetry detection in the wild,” in IEEE CVPR,2017.
-
-
-- [3] K. Zhao, W. Shen, S. Gao, D. Li, and M. Cheng, “Hi-fi: Hierarchical feature integration for skeleton detection,” in IJCAI, 2018.
-
-<div id="deepflux"></div>
-
-- [4] Y. Wang, Y. Xu, S. Tsogkas, X. Bai, S. J. Dickinson, and K. Siddiqi, “Deepflux for skeletons in the wild,” in IEEE CVPR, 2019.
-
-<div id="adalsn"></div>
-
-- [5] Chang Liu*, Yunjie Tian*, Jianbin Jiao and Qixiang Ye, "Adaptive Linear Span Network for Object Skeleton Detection", https://arxiv.org/abs/2011.03972.
-
-<div id="adalsn"></div>
-
-- [6] Chang Liu, Fang Wan, Wei Ke, Zhuowei Xiao, Yuan Yao, Xiaosong Zhang and Qixiang Ye, "Orthogonal Decomposition Network for Pixel-Wise Binary Classification", in IEEE CVPR, 2019.
-
-- [7] Chang Liu, Wei Ke, Fei Qin and Qixiang Ye, "Linear Span Network for Object Skeleton Detection", in IEEE ECCV, 2018.
+```bash
+@article{liu2021adaptive,
+  title={Adaptive linear span network for object skeleton detection},
+  author={Liu, Chang and Tian, Yunjie and Chen, Zhiwen and Jiao, Jianbin and Ye, Qixiang},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={5096--5108},
+  year={2021},
+  publisher={IEEE}
+}
+```
